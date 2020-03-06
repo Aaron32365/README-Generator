@@ -1,50 +1,50 @@
-# this is a test
+# Example Project Title
     
 # Descripion:
-## test project description
+## This is an example project description
 
 
 # Table of Contents:
 
-* [Title](##Title)
+* [Title](#Title)
 
-* [Description](##Description)
+* [Description](#Description)
 
-* [Installation](##Installation)
+* [Installation](#Installation)
 
-* [Usage](##Usage)
+* [Usage](#Usage)
 
-* [License](##License)
+* [License](#License)
 
-* [Contributors](##Contributors)
+* [Contributors](#Contributors)
 
-* [Badges](##Badges)
+* [Badges](#Badges)
 
 
 
 # Installation
-## installation guide
+## 1. clone github repo, 2. enter 'npm i' inside of the terminal in the ./index.js directory, 3. run 'node ./index.js', 4. answer the prompt questions, 5. grab your generated README.md out of the GeneratedREADME folder
 
 # Usage
-## project usage
+## see installation guide for project use
 
 # License
-## no license
+## N/A
 
 # Contributors
-## aaron williams
+## Aaron Williams
 
 
-Aaron Williams
-https://api.github.com/users/Aaron32365
 ![Picture of Aaron Williams](https://avatars2.githubusercontent.com/u/56372224?v=4)
 
+### Aaron Williams
 
- badge link
+https://api.github.com/users/Aaron32365
 
- another badge link
 
- 1 more badge link
+ https://img.shields.io/github/followers/aaron32365?style=social
+
+ https://img.shields.io/github/last-commit/aaron32365/README-Generator
 
 
     

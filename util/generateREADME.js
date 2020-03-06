@@ -10,7 +10,7 @@ module.exports = (returnData, answers, badge) => {
 
 # Table of Contents:
 ${answers.contents.map(el => `
-* [${el.trim()}](##${el.trim()})
+* [${el.trim()}](#${el.trim()})
 `).join('')}
 
 
@@ -27,9 +27,11 @@ ${answers.contents.map(el => `
 ## ${answers.contributors}
 
 
-${returnData.name}
-${returnData.url}
 ![Picture of ${returnData.name}](${returnData.picture})
+
+### ${returnData.name}
+
+${returnData.url}
 
 ${badge.map(el => `
  ${el}
