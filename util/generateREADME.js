@@ -34,7 +34,7 @@ ${answers.contents.map(el => `
 ${returnData.url}
 
 ${badge.map(el => `
- (${el})
+ <img src='${el}'/>
 `).join('')}
 
     `   
