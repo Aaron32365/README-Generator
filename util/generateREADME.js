@@ -2,34 +2,34 @@ const fs = require('fs')
 
 module.exports = (returnData, answers, badge) => {
 
-    readME = `## ${answers.title}
+    readME = `# ${answers.title}
     
-## Descripion:
-# ${answers.description}
+# Descripion:
+## ${answers.description}
 
 
-## Table of Contents:
+# Table of Contents:
 ${answers.contents.map(el => `
-* [${el}](#${el})
+* [${el.trim()}](##${el.trim()})
 `).join('')}
 
 
-## Installation
-# ${answers.installation}
+# Installation
+## ${answers.installation}
 
-## Usage
-# ${answers.usage}
+# Usage
+## ${answers.usage}
 
-## License
-# ${answers.license}
+# License
+## ${answers.license}
 
-## Contributors
-# ${answers.contributors}
+# Contributors
+## ${answers.contributors}
 
 
 ${returnData.name}
 ${returnData.url}
-${returnData.picture}
+![Picture of ${returnData.name}](${returnData.picture})
 
 ${badge.map(el => `
  ${el}
