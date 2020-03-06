@@ -42,7 +42,7 @@
 https://api.github.com/users/Aaron32365
 
 
- (https://img.shields.io/github/followers/aaron32365?style=social)
+ <a href='https://img.shields.io/github/followers/aaron32365?style=social'
 
  (https://img.shields.io/github/last-commit/aaron32365/README-Generator)
 
