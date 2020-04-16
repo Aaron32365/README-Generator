@@ -1,5 +1,10 @@
+//requiring fs to generate readme file
+////////////////////////////////////////////////////
 const fs = require('fs')
+////////////////////////////////////////////////////
 
+//exporting function that writes a readme file with gathered data 
+////////////////////////////////////////////////////
 module.exports = (returnData, answers, badge) => {
 
     readME = `# ${answers.title}
@@ -42,5 +47,7 @@ ${badge.map(el => `
         if(err){
             console.log(err)
         }
+        console.log("Please see the GeneratedREADME folder for your newly generated README.md")
     })
 }
+////////////////////////////////////////////////////

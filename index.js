@@ -1,17 +1,22 @@
+// requiring necessary modules 
+////////////////////////////////////////////////////
 const questions = require('./util/questions')
 const inquirer = require('inquirer')
-qeury = require('./util/qeury')
-
+var qeury = require('./util/qeury')
+////////////////////////////////////////////////////
 initialize()
 
+//initialization function, starts readme generation
+////////////////////////////////////////////////////
 async function initialize(){
     var answers = await inquirer.prompt(questions)
-    console.log(answers)
     var badges = await addBadges()
-    console.log(badges)
     qeury(answers, badges)
 }
+////////////////////////////////////////////////////
 
+// function for adding multiple badges
+////////////////////////////////////////////////////
 async function addBadges(){
     var badgeList = []
     do {
@@ -24,3 +29,4 @@ async function addBadges(){
     } while (badge.badges.toUpperCase() != 'q'.toUpperCase())
     return badgeList
 }
+////////////////////////////////////////////////////

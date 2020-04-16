@@ -1,3 +1,4 @@
+//exporting questions asked to user for user in index.js
 module.exports = [{
     type: 'input',
     name: 'username',
